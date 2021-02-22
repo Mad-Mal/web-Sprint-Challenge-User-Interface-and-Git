@@ -144,3 +144,147 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* My work starts here, home page*/
+
+#navhead {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* I wanted to change the width of the whole container to 20rem along with all of the css I added to make the page responsive
+But chose not to because the sprint challenge wanted me to replicate what they had in the img and I did not want to change the 
+code that was already given to me */
+
+#headimg {
+    width: 20%
+}
+
+#navi {
+    width: 80%;
+}
+
+#navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+}
+
+#jumbopic {
+    width: 800px;
+    margin: 3rem auto 1rem auto;
+}
+
+#box1 {
+    background-color: teal;
+}
+
+#box2 {
+    background-color: gold;
+}
+
+#box3 {
+    background-color: cadetblue;
+}
+
+#box4 {
+    background-color: coral;
+}
+
+#box5 {
+    background-color: crimson;
+}
+
+#box6 {
+    background-color: forestgreen;
+}
+
+#box7 {
+    background-color: darkorchid;
+}
+
+#box8 {
+    background-color: hotpink;
+}
+
+#box9 {
+    background-color: indigo;
+}
+
+#box10 {
+    background-color: dodgerblue;
+}
+
+/* Work for about page starts here */
+
+#mainsect {
+    display: flex;
+    flex-flow: row wrap;
+    width: 800px;
+}
+
+#about {
+    padding-left: 1rem;
+}
+
+.bottomborders {
+    border-bottom: .1rem dashed black;
+    padding: 1rem;
+}
+
+.bottomborders1 {
+    border-bottom: .1rem dashed black;
+    padding: 1rem;
+}
+
+button {
+    border-color: black;
+    border-radius: 6px;
+    padding: .5rem .85rem;
+    margin-top: 1rem;
+}
+
+.dubsect {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+#topleft {
+    margin-right: .5rem;
+    margin-left: .75rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+#topright {
+    margin-left: .5rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+#bottomright {
+    margin-left: .5rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+#bottomleft {
+    margin-right: .5rem;
+    margin-left: .75rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+
+#bottompara {
+    padding: 2rem 1rem;
+}
